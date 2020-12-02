@@ -12,17 +12,111 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Bootstrap Starter Page</title>
+    <title>Assignment solution 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
-
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
+  <header>
+    <nav id="header-nav" class="navbar navbar-default clour">
+      <div class="container" >
+        <div class="navbar-header">
+            <div class="navbar-brand">
+            <a href="index.html" class="pull-left "><b><h2>Food, LLC</h2></b></a>
+          </div>
+          <div class="visible-xs">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse perf">
+           <ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
+            <li class="text-center" id="chick">
+            <a href="#targetChicken"> Chicken </a>
+            </li>
+            <li class="text-center" id="bee">
+              <a href="#targetBeef">
+              <br class="hidden-xs"> Beef </a>
+            </li>
+            <li class="text-center">
+              <a href="#targetSushi">
+               <br class="hidden-xs"> Sushi</a>
+            </li>
+
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+
+
+ 
+  <h3 class="text-center">Our Menu</h3>
+    <div class="row">
+      
+        <div class="col-md-4 col-sm-6 col-xs-12 column">
+            <div class="div3">
+               <h4 class="text-center" id="targetChicken">Chicken</h4>
+               <section id = "s1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique.
+                
+              </section>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 column ">
+            <div class="div3">
+                <h4 class="text-center" id="targetBeef" >Beef</h4>
+                <section id = "s2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                      venenatis velit nec neque ultricies, eget elementum magna tristique. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                      venenatis velit nec neque ultricies, eget elementum magna tristique.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                      venenatis velit nec neque ultricies, eget elementum magna tristique.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                      venenatis velit nec neque ultricies, eget elementum magna tristique.  
+                   
+              </section>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 column" id = "thirdbox" >
+            <div class="div3" id="align"> 
+               <h4 class="text-center" id="targetSushi">Sushi</h4>
+                <section id = "s3"> 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                   venenatis velit nec neque ultricies, eget elementum magna tristique. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                  venenatis velit nec neque ultricies, eget elementum magna tristique. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                  venenatis velit nec neque ultricies, eget elementum magna tristique.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                  venenatis velit nec neque ultricies, eget elementum magna tristique.
+
+               </section>
+            </div>
+        </div>
+    </div>
+    
+
+
 </body>
 </html>
